@@ -1,3 +1,150 @@
-* {
+
+body {
+    font-family: 'opensans', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+}
+
+.flogo{
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(217, 217, 217);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    font-size: 12px;;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: white;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 200px;
+}
+.herobigtxt {
+    font-family:
+    font-size: 48px;
+    font-weight: bold;
+    color:#F9FAF8
+}
+.heroleftbox {  
+    padding: 100px;
+}
+
+.herosmalltxt {
+
+}
+
+.signup1 {
+    background-color: #3882F6;
+    color: white;
+    border: 5px solid #3882F6;
+    margin: 0;
+    padding: 0px 12px;
+    border-radius: 5px;
+}
+
+.herorightbox {
+    outline: 1px solid red;
+    height: 240px;
+    min-width: 510px;
+    background-color: rgb(196, 194, 194);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardinfo {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color:#1F2937;
+    margin-top: 120px;
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin: 0px 100px 100px 100px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    margin: 58px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qauthor {
+    font-weight: bold;
+}
+
+.bottomcardbox {
+    background-color: #3882F6;
+    height: 150px;
+    margin: 150px;
+    border-radius: 10px;
     outline: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 350px
+}
+
+.bottomcard {
+    color: #F9FAF8;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.signup2 {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid #fefefe;
+    margin: 0;
+    padding: 3px 20px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
