@@ -1,3 +1,3 @@
 # landing-page
 
-Landing page of a Travel booking site build using HTML & CSS
+Landing page of a Gadget accesories online shopping site build using HTML & CSS
