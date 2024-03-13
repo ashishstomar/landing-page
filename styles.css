@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .flogo{
@@ -30,14 +30,21 @@ ul {
     font-size: 12px;;
 }
 
+.hright {
+    font-size: 20px;
+    color:#cdcdcd;
+    gap: 30px;
+}
+
 .hero {
     background-color: #1F2937;
     color: white;
-    height: 550px;
+    height: 560px;
     display: flex;
     justify-content: center;
+    padding: 0px 250px;
     align-items: center;
-    padding: 0px 200px;
+    gap: 47px;
 }
 .herobigtxt {
     font-size: 48px;
@@ -45,33 +52,49 @@ ul {
     color:#F9FAF8
 }
 .heroleftbox {  
-    padding: 100px;
+    margin-bottom: 100px;
 }
 
 .herosmalltxt {
-
+    margin-top: -30px;
 }
 
-.signup1 {
+.button {
     background-color: #3882F6;
     color: white;
-    border: 5px solid #3882F6;
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 10px 48px;
+    transition-duration: 0.4s;
+}
+
+.signup1:hover {
+    background-color: rgb(255, 75, 25);
     margin: 0;
-    padding: 0px 12px;
-    border-radius: 5px;
+    padding: 10px 48px;
+    border-radius: 8px;
+}
+
+.signup2 {
+    border: 2px solid #fefefe;
+
+}
+.signup2:hover {
+    background-color: rgb(255, 75, 25);
+    margin: 0;
+    padding: 9px 46px;
+    border-radius: 8px;
 }
 
 .herorightbox {
-    height: 240px;
-    min-width: 510px;
+    height: 290px;
+    min-width: 630px;
     background-color: rgb(196, 194, 194);
     color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url(images/hero.png);
     background-repeat: round;
     border-radius: 15px;
+    margin-bottom: 50px;
     
 }
 
@@ -80,22 +103,23 @@ ul {
     font-size: 36px;
     font-weight: bold;
     color:#1F2937;
-    margin-top: 120px;
+    margin-top: 50px;
 }
 
 .cardcontainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 48px;
+    gap: 88px;
     margin: 0px 100px 100px 100px;
-}
+    flex-wrap: wrap;
+} 
 
 .card {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border: 5px solid #3882F6;
-    border-radius: 10px;
+    border-radius: 30px;
     margin: 58px 0;
     display: flex;
     justify-content: center;
@@ -117,6 +141,22 @@ ul {
     background-image: url(images/card4.webp);
     background-repeat: round;
 }
+
+.cardcaption {
+    max-width: 250px;
+    height: auto;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.caption {
+    margin-top: -50px;
+    padding: 10px;
+}
 .quote {
     background-color: #E5E7EB;
     height: 220px;
@@ -131,34 +171,30 @@ ul {
 
 .qauthor {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 40px;
+    margin-left: 800px;
 }
 
 .bottomcardbox {
     background-color: #3882F6;
-    height: 150px;
-    margin: 150px;
+    height: 120px;
+    margin: 130px;
+    padding: 40px;
     border-radius: 10px;
-    outline: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 350px
+    gap: 150px;
 }
 
 .bottomcard {
     color: #F9FAF8;
-    padding-left: 0;
     margin-left: 0;
+    
 }
-
-.signup2 {
-    background-color: #3882F6;
-    color: white;
-    border: 2px solid #fefefe;
-    margin: 0;
-    padding: 3px 20px;
-    border-radius: 5px;
+.smalltxt {
+    color: #e7e7e7;
+    margin-top: -20px;
 }
 
 .footer {
